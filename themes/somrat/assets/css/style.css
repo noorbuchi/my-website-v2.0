@@ -1046,10 +1046,10 @@ input:checked + label span:last-child {
 .about-me-images img {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width:  70%;
-  -webkit-filter: grayscale(100%);
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width:  80%;
+  /* -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -1058,17 +1058,17 @@ input:checked + label span:last-child {
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
-  transition: all linear .3s;
+  transition: all linear .3s; */
 }
 
-.about-me-images img:hover {
+/* .about-me-images img:hover {
   width: 70%;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
   filter: grayscale(0%);
-}
+} */
 
 .about-me .hvr-icon-hang:before {
   content: "\f0ab";
