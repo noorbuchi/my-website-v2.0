@@ -24,6 +24,10 @@ link = "plugins/owl-carousel/owl.theme.default.min.css"
 link = "plugins/text-animation/text-animation.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+
+
 
 # JS Plugins
 [[params.plugins.js]]
