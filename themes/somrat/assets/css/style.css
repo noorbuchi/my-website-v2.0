@@ -111,6 +111,13 @@ body {
   transform: translateY(0px);
 }
 
+.skillsLogo {
+  width: 25%;
+  length: 25%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
 .scroll-up:hover,
 .scroll-up:focus {
   color: #999;

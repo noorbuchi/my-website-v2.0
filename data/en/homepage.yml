@@ -92,30 +92,26 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
-      percentage : "50%"
-
-    # skill item loop
-    - name : "Graphic Design"
-      percentage : "85%"
-
-    # skill item loop
-    - name : "Database Management"
-      percentage : "90%"
-
-    # skill item loop
-    - name : "Wordpress"
+    - name : "Time Management"
       percentage : "70%"
+
+    # skill item loop
+    - name : "Communication"
+      percentage : "75%"
+
+    # skill item loop
+    - name : "Teamwork"
+      percentage : "65%"
 
 
 ################################### Service ##############################3
 service:
   enable : false
-  title : "SERVICES"
+  title : "SKILLS"
   service_list:
     # service item loop
-    - name : "Web Development"
-      image : "images/icons/web-development.png"
+    - name : "Java"
+      image : "images/icons/java.png"
 
     # service item loop
     - name : "Graphic Design"
