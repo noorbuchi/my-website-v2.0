@@ -7,8 +7,9 @@ hero:
     - "Write Code"
     - "Study Computer Science"
     - "Play Tennis"
-    - "Procrastinate Sometimes"
     - "Play Chess"
+    - "Love Video Games"
+    - "Procrastinate Sometimes"
     # TODO: maybe change this
 
   # slider background image loop
@@ -18,17 +19,17 @@ hero:
 
   # button
   button:
-    enable : false
-    label : "HIRE ME"
-    link : "#contact"
+    enable : true
+    label : "About me"
+    link : "#about"
 
 
 ####################### Full screen navigation #####################
-fullscreen_nav:
-  enable : false
-  bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+# fullscreen_nav:
+#   enable : false
+#   bg_image : "images/backgrounds/full-nav-bg.jpg"
+#   first_name : "MacGyver"
+#   last_name : "SOMRAT"
 
 
 ########################### About ##################################
@@ -133,7 +134,7 @@ call_to_action:
 ############################# portfolio ################################
 portfolio:
   enable : true
-  title : "PORTFOLIO"
+  title : "PROJECTS"
   portfolio_list:
     # portfolio item loop
     - name : "Project <br> Title"
@@ -228,7 +229,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
@@ -255,7 +256,7 @@ testimonial:
 
 ######################### funfacts #############################3
 funfacts:
-  enable : true
+  enable : false
   funfacts_list:
     # funfacts item loop
     - name : "HANDS TO WORK"
@@ -280,5 +281,5 @@ funfacts:
 
 ############################## contact ###########################
 contact:
-  enable : true
+  enable : false
   title : "SAY HELLO!"

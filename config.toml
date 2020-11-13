@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://noorbuchi.netlify.app"
-title = "Somrat | Hugo Portfolio Template"
+title = "Noor Buchi | Welcome to my website"
 theme = "somrat"
 # disable language
 disableLanguages = [] # disable language from here
@@ -61,20 +61,20 @@ name = "About me"
 URL = "#about"
 weight = 2
 
-[[menu.main]]
-name = "Service"
-URL = "#service"
-weight = 3
+# [[menu.main]]
+# name = "Service"
+# URL = "#service"
+# weight = 3
 
 [[menu.main]]
-name = "Portfolio"
+name = "Projects"
 URL = "#portfolio"
 weight = 4
 
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
+# [[menu.main]]
+# name = "Testimonial"
+# URL = "#testimonial"
+# weight = 5
 
 [[menu.main]]
 name = "Contact"
@@ -88,7 +88,7 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
 description = "This is meta description"
-author = "somrat"
+author = "Noor Buchi"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
 # Google analytics
@@ -133,11 +133,11 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# home = "Accueil"
+# # copyright
+# copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
