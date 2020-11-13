@@ -87,12 +87,12 @@ weight = 4
 logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
-description = "This is meta description"
+description = "Noor Buchi Personal website"
 author = "Noor Buchi"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
 # Google analytics
-google_analytics_id = "" # your id
+google_analytics_id =  "G-78SD7SK43C" # your id
 
 # Preloader
 [params.preloader]
@@ -102,23 +102,23 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 [[params.social]]
 icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/somrat.mac"
+link = ""
 
 [[params.social]]
 icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://twitter.com/somrat_37"
+link = ""
 
 [[params.social]]
 icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/somrat_sorkar/"
+link = ""
 
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/Somrat37"
+link = ""
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/somrat-sorkar-872581158/"
+link = ""
 
 
 ################################### English language #####################################
