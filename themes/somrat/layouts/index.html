@@ -124,7 +124,7 @@
           <h1 class="introduction">{{ .title | markdownify | emojify }}</h1>
           <div class="animated-text">
             <strong class="cd-headline clip" style="font-weight: bold;"> I
-              <span class="cd-words-wrapper">
+              <span class="cd-words-wrapper" style="font-weight: normal">
                 {{ range $index, $elements:= .occupations }}
                 <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
                 {{ end }}
