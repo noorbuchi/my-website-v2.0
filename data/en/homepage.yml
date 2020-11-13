@@ -37,40 +37,58 @@ about:
   enable : true
   image : "images/backgrounds/portrait.png"
   title : "ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passion. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "My name is Noor Buchi, I'm a student at Allegheny College majoring in Computer Science with a minor in Political Science. I really enjoy  software engineering as well as cloud computing. I'm currently looking for internships that help me develop new skills and have a better idea of my interests."
   # button
   button:
     enable : true
     label : "DOWNLOAD MY CV"
-    link : "#" # you can put your cv in static folder and give the path here.
+    link : "resume/11-12-2020.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
   enable : true
-  title : "EXPERIENCE"
+  title : "WORK EXPERIENCE"
+  # TODO try to change content to a bulleted list figure out why cant do more than three
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-commerce etc."
+    - name : "Technical Leader"
+      company : "Allegheny College, Meadville PA"
+      duration : "August 2020 - Present"
+      content : "● Attend meetings to receive performance feedback and provide updates
+      ● Hold weekly office hours to assist students in introductory computer science courses
+      ● Assist 20-25 student in completing class activities and assignments"
 
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "Store Associate"
+      company : "Aldi, Lower Burrell PA"
+      duration : "June 2018 - Present"
+      content : "● Assist customers in finding and comparing products
+      ● Operate cash register and handle money responsibly
+      ● Maintain a clean working environment in the store
+      ● Stock Shelving units with needed items in an organized manner
+      ● Resolve customer concerns professionally"
 
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Subject Tutor"
+      company : "Allegheny College, Meadville PA"
+      duration : "September 2019 - Present"
+      content : "● Assist 3-4 students a week in beginner calculus level math and Arabic language
+      ● Develop student’s studying skills and improve subject competencies by providing advising strategies
+      ● Prepare and construct individualized lessons plans according to student skill level
+      ● Hold weekly office hours to support students outside of classroom learning"
+
+      # - name : "Financial Aid Intern"
+      #   company : "Allegheny College, Meadville PA"
+      #   duration : "September 2019 - Present"
+      #   content : "● Input information into office databases and spreadsheets such as Excel and Colleague
+      #   ● Answer phone calls and assist callers according to their concern regarding financial aid
+      #   ● Make appointments for supervisors with respect to their schedules
+      #   ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
 
 
 ############################### Skill #################################
 skill:
-  enable : false
+  enable : true
   title : "SKILL"
   skill_list:
     # skill item loop
