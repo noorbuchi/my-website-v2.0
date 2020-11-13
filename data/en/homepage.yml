@@ -41,7 +41,7 @@ about:
   # button
   button:
     enable : true
-    label : "DOWNLOAD MY CV"
+    label : "DOWNLOAD MY RESUME"
     link : "resume/11-12-2020.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
@@ -72,7 +72,7 @@ experience:
     - name : "Subject Tutor"
       company : "Allegheny College, Meadville PA"
       duration : "September 2019 - Present"
-      content : "● Assist 3-4 students a week in beginner calculus level math and Arabic language
+      content : "● Assist 3-4 students a week in calculus and Arabic language
       ● Develop student’s studying skills and improve subject competencies by providing advising strategies
       ● Prepare and construct individualized lessons plans according to student skill level
       ● Hold weekly office hours to support students outside of classroom learning"
