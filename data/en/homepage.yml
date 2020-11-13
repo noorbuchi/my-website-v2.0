@@ -13,7 +13,7 @@ hero:
     # TODO: maybe change this
 
   # slider background image loop
-    # TODO: find a different one
+    # TODO: add illustration to background
   slider_image:
     - "images/slider/plain.png"
 
@@ -151,94 +151,26 @@ portfolio:
   title : "PROJECTS"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item1.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Gator <br> Sorter"
+      image : "images/portfolio/SortingAlgorithms.png"
+      date : "Nov. 2019"
+      category : "Data Structures"
+      URL: "https://www.google.com/"
+      # TODO: add link
 
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "B-Tree <br> Visualiser"
+      image : "images/portfolio/BTree.png"
+      date : "March 2020"
+      category : "Algorithms"
+      URL: "https://github.com/noorbuchi/2-3-B-Tree-Java"
 
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item3.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item4.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item5.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item6.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item7.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item8.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item9.jpg"
-      date : "Feb 2018"
-      category : "Database"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item10.jpg"
-      date : "Feb 2018"
-      category : "Database"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item11.jpg"
-      date : "Feb 2018"
-      category : "Database"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item12.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item13.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item14.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item15.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
+    - name : "Cogitate <br> Tool"
+      image : "images/portfolio/Cogitate.png"
+      date : "March 2020"
+      category : "Software Engineering"
+      URL: "https://github.com/noorbuchi/cogitate_tool"
 
 
 ################################# Testimonial #########################33
