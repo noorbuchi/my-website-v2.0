@@ -9,9 +9,10 @@
   <nav>
     <!-- desktop-menu -->
     <div class="menu-container">
-        <div class="desktop-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
+        <!-- TODO bring back the logo if needed -->
+        <!-- <div class="desktop-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ .Site.Params.logo_light | absURL }}" alt="{{ .Site.Title }}" id="desktop-logo"></a>
-        </div>
+        </div> -->
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range .Site.Menus.main }}
         <li class="menu-item hvr-underline-from-left {{ .Weight }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
