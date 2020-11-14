@@ -9,7 +9,6 @@
   <nav>
     <!-- desktop-menu -->
     <div class="menu-container">
-        <!-- TODO bring back the logo if needed -->
         <div class="desktop-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ .Site.Params.logo_light | absURL }}" alt="{{ .Site.Title }}" id="desktop-logo"></a>
         </div>
@@ -139,7 +138,6 @@
             <a class="btn" href="https://twitter.com/BuchiNoor/" target="_blank"><i class="icon-twitter icon-3x"></i></a>
           </div>
           <!-- <i class="icon-github" href="https://www.google.com/"></i> -->
-          <!-- TODO figure out how to add font awesome here -->
           <!-- <i class="fa fa-github"> hello</i> -->
           {{ if .button.enable }}
           {{ with .button }}
@@ -406,7 +404,7 @@
           {{ range .portfolio_list }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item" data-category="{{ .category | urlize }}">
             <div class="item-holder">
-              <a href="{{ .URL | absURL }}" title="{{ .name | safeHTML }}">
+              <a href="{{ .URL | absURL }}" title="{{ .name | safeHTML }}" target="_blank">
                   <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
                 <div class="item-caption">
                   <h3>{{ .name | safeHTML }}</h3>

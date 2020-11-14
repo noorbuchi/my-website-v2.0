@@ -48,7 +48,7 @@ about:
 experience:
   enable : true
   title : "WORK EXPERIENCE"
-  # TODO try to change content to a bulleted list figure out why cant do more than three
+  # TODO try to change content to a bulleted list
   experience_list:
     # experience item loop
     - name : "Technical Leader"
@@ -163,8 +163,7 @@ portfolio:
       image : "images/portfolio/SortingAlgorithms.png"
       date : "Nov. 2019"
       category : "Data Structures"
-      URL: "https://www.google.com/"
-      # TODO: add link
+      URL: "https://github.com/Allegheny-Computer-Science-101-F2019/Gator-Sorter"
 
     # portfolio item loop
     - name : "B-Tree <br> Visualiser"
