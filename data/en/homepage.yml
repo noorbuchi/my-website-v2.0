@@ -85,11 +85,19 @@ experience:
       ● Make appointments for supervisors with respect to their schedules
       ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
 
+    - name : "Tennish Coach Assistant"
+      company : "Burrell School District, Lower Burrell PA"
+      duration : "February 2017 - September 2020"
+      content : "● Organize summer tennis camp for children in elementary and middle school
+      ● Oversee drills for the high school varsity team
+      ● Provide performance feedback to the head coach
+      ● Assist in organizing fundraisers"
+
 
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "SKILLS"
   skill_list:
     # skill item loop
     - name : "Time Management"
@@ -101,7 +109,7 @@ skill:
 
     # skill item loop
     - name : "Teamwork"
-      percentage : "65%"
+      percentage : "80%"
 
 
 ################################### Service ##############################3
