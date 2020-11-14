@@ -62,7 +62,7 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Experience"
+name = "Work Experience"
 URL = "#experience"
 weight = 3
 
@@ -129,7 +129,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "&copy; 2020 Noor Buchi | Powered By [Hugo](https://gohugo.io/) & [Somrat](https://themes.gohugo.io/somrat/)"
 
 
 ################################### French language #####################################

@@ -77,13 +77,13 @@ experience:
       ● Prepare and construct individualized lessons plans according to student skill level
       ● Hold weekly office hours to support students outside of classroom learning"
 
-      # - name : "Financial Aid Intern"
-      #   company : "Allegheny College, Meadville PA"
-      #   duration : "September 2019 - Present"
-      #   content : "● Input information into office databases and spreadsheets such as Excel and Colleague
-      #   ● Answer phone calls and assist callers according to their concern regarding financial aid
-      #   ● Make appointments for supervisors with respect to their schedules
-      #   ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
+    - name : "Financial Aid Intern"
+      company : "Allegheny College, Meadville PA"
+      duration : "September 2019 - Present"
+      content : "● Input information into office databases and spreadsheets such as Excel and Colleague
+      ● Answer phone calls and assist callers according to their concern regarding financial aid
+      ● Make appointments for supervisors with respect to their schedules
+      ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
 
 
 ############################### Skill #################################
@@ -227,5 +227,5 @@ funfacts:
 
 ############################## contact ###########################
 contact:
-  enable : false
-  title : "SAY HELLO!"
+  enable : true
+  title : "Contact Me"

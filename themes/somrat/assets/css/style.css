@@ -1772,7 +1772,7 @@ textarea.form-control::-webkit-input-placeholder,
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 210px;
+  /* width: 210px; */
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
