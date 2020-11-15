@@ -15,7 +15,7 @@ hero:
   # slider background image loop
     # TODO: add illustration to background
   slider_image:
-    - "images/slider/plain.png"
+    - "images/background/plain2.png"
 
   # button
   button:
@@ -42,7 +42,7 @@ about:
   button:
     enable : true
     label : "DOWNLOAD MY RESUME"
-    link : "resume/11-12-2020.pdf" # you can put your cv in static folder and give the path here.
+    link : "https://docs.google.com/document/d/16b6j5_OFEgF-MkesBF8xK-Fwm4GgJIUvNURvqJFexAA/edit?usp=sharing" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:

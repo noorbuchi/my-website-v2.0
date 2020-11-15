@@ -4,6 +4,7 @@
 
 html {
   height: 100%;
+  /* NOTE: I added this to disable horizontal scrolling */
   overflow-x:hidden;
 }
 
