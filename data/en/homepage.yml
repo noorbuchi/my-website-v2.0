@@ -4,16 +4,16 @@ hero:
 
   # animated text loop
   occupations:
-    - "Write Code"
     - "Study Computer Science"
+    - "Write Code"
     - "Play Tennis"
-    - "Play Chess"
     - "Love Video Games"
+    - "Play Chess"
     - "Procrastinate Sometimes"
     # TODO: maybe change this
 
   # slider background image loop
-    # TODO: add illustration to background
+    # Done: add illustration to background
   slider_image:
     - "images/background/plain2.png"
 
