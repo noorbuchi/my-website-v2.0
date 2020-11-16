@@ -92,7 +92,7 @@ author = "Noor Buchi"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
 # Google analytics
-google_analytics_id =  "G-78SD7SK43C" # your id
+googleAnalytics =  "G-78SD7SK43C" # your id
 
 # Preloader
 [params.preloader]
