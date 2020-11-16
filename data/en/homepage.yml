@@ -15,7 +15,7 @@ hero:
   # slider background image loop
     # Done: add illustration to background
   slider_image:
-    - "images/background/plain2.png"
+    - "images/background/artBall.png"
 
   # button
   button:
