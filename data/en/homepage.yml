@@ -35,7 +35,7 @@ hero:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/backgrounds/portrait.png"
+  image : "images/profile/portrait.png"
   title : "ABOUT ME"
   content : "Hello! My name is Noor Buchi, I'm a student at Allegheny College majoring in Computer Science with a minor in Political Science. I enjoy software engineering as well as cloud computing. I'm currently looking for internships that help me develop new skills and have a better idea of my interests."
   # button
