@@ -164,8 +164,8 @@ portfolio:
       date : "November 2019"
       category : "Data Structures"
       URL: "https://github.com/Allegheny-Computer-Science-101-F2019/Gator-Sorter"
-      description: "This is gator sorter"
-      buttonPhrase: "Repo"
+      description: "An implementation of basic sorting algorithms in Java ● Includes step by step demonstration of Bubble Sort, Insertion Sort, and Selection Sort."
+      buttonPhrase: "Show more"
 
     # portfolio item loop
     - name : "B-Tree Visualiser"
@@ -173,17 +173,17 @@ portfolio:
       date : "March 2020"
       category : "Algorithms"
       URL: "https://github.com/noorbuchi/2-3-B-Tree-Java"
-      description: "This is b tree"
-      buttonPhrase: "Repo"
+      description: "An implementation of 2-3 B-Trees in Java, including algorithms for insertion, deletion, and breadth-first traversal ● Images of the tree are generated through Graphviz ● The tool also features doubling experiments to ensure efficiency."
+      buttonPhrase: "Show more"
 
     # portfolio item loop
-    - name : "Cogitate Tool"
+    - name : "Cogitate"
       image : "images/portfolio/Cogitate.png"
       date : "March 2020"
       category : "Software Engineering"
       URL: "https://github.com/noorbuchi/cogitate_tool"
-      description: "This is cogitate"
-      buttonPhrase: "See more"
+      description: "A Python tool that mines data from GitHub repositories and analyzes individual and team performances ● Stores data using JSON and provides a web interface to create graphs."
+      buttonPhrase: "Show more"
 
 
 ################################# Testimonial #########################33
