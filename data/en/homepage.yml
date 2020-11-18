@@ -159,25 +159,31 @@ portfolio:
   title : "PROJECTS"
   portfolio_list:
     # portfolio item loop
-    - name : "Gator <br> Sorter"
+    - name : "Gator Sorter"
       image : "images/portfolio/SortingAlgorithms.png"
-      date : "Nov. 2019"
+      date : "November 2019"
       category : "Data Structures"
       URL: "https://github.com/Allegheny-Computer-Science-101-F2019/Gator-Sorter"
+      description: "This is gator sorter"
+      buttonPhrase: "Repo"
 
     # portfolio item loop
-    - name : "B-Tree <br> Visualiser"
+    - name : "B-Tree Visualiser"
       image : "images/portfolio/BTree.png"
       date : "March 2020"
       category : "Algorithms"
       URL: "https://github.com/noorbuchi/2-3-B-Tree-Java"
+      description: "This is b tree"
+      buttonPhrase: "Repo"
 
     # portfolio item loop
-    - name : "Cogitate <br> Tool"
+    - name : "Cogitate Tool"
       image : "images/portfolio/Cogitate.png"
       date : "March 2020"
       category : "Software Engineering"
       URL: "https://github.com/noorbuchi/cogitate_tool"
+      description: "This is cogitate"
+      buttonPhrase: "See more"
 
 
 ################################# Testimonial #########################33
