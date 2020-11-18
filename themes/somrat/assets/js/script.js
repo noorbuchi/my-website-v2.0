@@ -173,16 +173,17 @@
 	function toggleLogoImg(id) {
     	var img = document.getElementById(id).src;
         if (img.indexOf('dark.png')!=-1) {
-            document.getElementById(id).src  = "https://www.qonsulter.de/images/logo-light.png";
+            document.getElementById(id).src  = "images/logo.png";
         }
          else {
-           document.getElementById(id).src = "https://www.qonsulter.de/images/logo-dark.png";
+           document.getElementById(id).src = "images/logo-dark.png";
        }
 
     }
 
 	// Styling Menu on Scroll
-	$('.services').waypoint({
+	// NOTE: I changed the waypoing to about-me, it was previously service
+	$('.about-me').waypoint({
 		handler: function (direction) {
 			// Fixing Menu after leaving Header Section
 			//$(".menu").toggleClass("menu-fix");
