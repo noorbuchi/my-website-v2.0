@@ -37,7 +37,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.png"
   title : "ABOUT ME"
-  content : "My name is Noor Buchi, I'm a student at Allegheny College majoring in Computer Science with a minor in Political Science. I really enjoy  software engineering as well as cloud computing. I'm currently looking for internships that help me develop new skills and have a better idea of my interests."
+  content : "Hello! My name is Noor Buchi, I'm a student at Allegheny College majoring in Computer Science with a minor in Political Science. I enjoy software engineering as well as cloud computing. I'm currently looking for internships that help me develop new skills and have a better idea of my interests."
   # button
   button:
     enable : true
@@ -71,7 +71,7 @@ experience:
     # experience item loop
     - name : "Subject Tutor"
       company : "Allegheny College, Meadville PA"
-      duration : "September 2019 - Present"
+      duration : "September 2019 - May 2020"
       content : "● Assist 3-4 students a week in calculus and Arabic language
       ● Develop student’s studying skills and improve subject competencies by providing advising strategies
       ● Prepare and construct individualized lessons plans according to student skill level
@@ -79,13 +79,13 @@ experience:
 
     - name : "Financial Aid Intern"
       company : "Allegheny College, Meadville PA"
-      duration : "September 2019 - Present"
+      duration : "September 2019 - March 2020"
       content : "● Input information into office databases and spreadsheets such as Excel and Colleague
       ● Answer phone calls and assist callers according to their concern regarding financial aid
       ● Make appointments for supervisors with respect to their schedules
       ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
 
-    - name : "Tennish Coach Assistant"
+    - name : "Tennis Coach Assistant"
       company : "Burrell School District, Lower Burrell PA"
       duration : "February 2017 - September 2020"
       content : "● Organize summer tennis camp for children in elementary and middle school
