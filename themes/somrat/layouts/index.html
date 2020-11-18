@@ -419,7 +419,7 @@
                     <h5 class="card-title">{{ .name | safeHTML}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{ .date | safeHTML}}</h6>
                     <p class="card-text"> {{ .description | safeHTML}}</p>
-                    <a href="{{ .URL | absURL }}" class="btn btn-dark ">{{ .buttonPhrase | safeHTML}}</a>
+                    <a href="{{ .URL | absURL }}" target="_blank" class="btn btn-dark ">{{ .buttonPhrase | safeHTML}}</a>
                   </div>
                 </div>
               </div>
