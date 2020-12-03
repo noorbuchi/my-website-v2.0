@@ -37,7 +37,15 @@ about:
   enable : true
   image : "images/profile/portrait.png"
   title : "ABOUT ME"
-  content : "Hello! My name is Noor Buchi, I'm a student at Allegheny College majoring in Computer Science with a minor in Political Science. I enjoy software engineering as well as cloud computing. I'm currently looking for internships that help me develop new skills and have a better idea of my interests."
+  content :  "Hello! My name is Noor Buchi, I'm a
+  student at Allegheny College majoring in
+  Computer Science with a minor in Political
+  Science. I enjoy software engineering as well as
+  cloud computing. I'm currently looking to Gain
+  professional experience through an internship
+  that helps me develop new skills and explore
+  different fields in computer science."
+
   # button
   button:
     enable : true
@@ -54,9 +62,12 @@ experience:
     - name : "Technical Leader"
       company : "Allegheny College, Meadville PA"
       duration : "August 2020 - Present"
-      content : "● Attend meetings to receive performance feedback and provide updates
-      ● Hold weekly office hours to assist students in introductory computer science courses
-      ● Assist 20-25 student in completing class activities and assignments"
+      content : "● Attend meetings to receive
+      performance feedback and provide updates ●
+      Hold weekly office hours to assist students
+      in introductory computer science courses ●
+      Assist 20-25 student in completing class
+      activities and assignments"
 
     # experience item loop
     - name : "Store Associate"
@@ -72,26 +83,38 @@ experience:
     - name : "Subject Tutor"
       company : "Allegheny College, Meadville PA"
       duration : "September 2019 - May 2020"
-      content : "● Assist 3-4 students a week in calculus and Arabic language
-      ● Develop student’s studying skills and improve subject competencies by providing advising strategies
-      ● Prepare and construct individualized lessons plans according to student skill level
-      ● Hold weekly office hours to support students outside of classroom learning"
+      content : "● Assist 3-4 students a week in
+      calculus and Arabic language ● Develop
+      student’s studying skills and improve
+      subject competencies by providing advising
+      strategies ● Prepare and construct
+      individualized lessons plans according to
+      student skill level ● Hold weekly office
+      hours to support students outside of
+      classroom learning"
 
     - name : "Financial Aid Intern"
       company : "Allegheny College, Meadville PA"
       duration : "September 2019 - March 2020"
-      content : "● Input information into office databases and spreadsheets such as Excel and Colleague
-      ● Answer phone calls and assist callers according to their concern regarding financial aid
-      ● Make appointments for supervisors with respect to their schedules
-      ● Organize and file sensitive office documents and records in alphabetical order to ease future access"
+      content : "● Input information into office
+      databases and spreadsheets such as Excel and
+      Colleague ● Answer phone calls and assist
+      callers according to their concern regarding
+      financial aid ● Make appointments for
+      supervisors with respect to their schedules
+      ● Organize and file sensitive office
+      documents and records in alphabetical order
+      to ease future access"
 
     - name : "Tennis Coach Assistant"
       company : "Burrell School District, Lower Burrell PA"
       duration : "February 2017 - September 2020"
-      content : "● Organize summer tennis camp for children in elementary and middle school
-      ● Oversee drills for the high school varsity team
-      ● Provide performance feedback to the head coach
-      ● Assist in organizing fundraisers"
+      content : "● Organize summer tennis camp for
+      children in elementary and middle school ●
+      Oversee drills for the high school varsity
+      team ● Provide performance feedback to the
+      head coach ● Assist in organizing
+      fundraisers"
 
 
 ############################### Skill #################################
@@ -164,7 +187,10 @@ portfolio:
       date : "November 2019"
       category : "Data Structures"
       URL: "https://github.com/Allegheny-Computer-Science-101-F2019/Gator-Sorter"
-      description: "An implementation of basic sorting algorithms in Java ● Includes step by step demonstration of Bubble Sort, Insertion Sort, and Selection Sort."
+      description: "An implementation of basic
+      sorting algorithms in Java ● Includes step
+      by step demonstration of Bubble Sort,
+      Insertion Sort, and Selection Sort."
       buttonPhrase: "Show more"
 
     # portfolio item loop
@@ -173,7 +199,12 @@ portfolio:
       date : "March 2020"
       category : "Algorithms"
       URL: "https://github.com/noorbuchi/2-3-B-Tree-Java"
-      description: "An implementation of 2-3 B-Trees in Java, including algorithms for insertion, deletion, and breadth-first traversal ● Images of the tree are generated through Graphviz ● The tool also features doubling experiments to ensure efficiency."
+      description: "An implementation of 2-3
+      B-Trees in Java, including algorithms for
+      insertion, deletion, and breadth-first
+      traversal ● Images of the tree are generated
+      through Graphviz ● The tool also features
+      doubling experiments to ensure efficiency."
       buttonPhrase: "Show more"
 
     # portfolio item loop
@@ -182,7 +213,11 @@ portfolio:
       date : "March 2020"
       category : "Software Engineering"
       URL: "https://github.com/noorbuchi/cogitate_tool"
-      description: "A Python tool that mines data from GitHub repositories and analyzes individual and team performances ● Stores data using JSON and provides a web interface to create graphs."
+      description: "A Python tool that mines data
+      from GitHub repositories and analyzes
+      individual and team performances ● Stores
+      data using JSON and provides a web interface
+      to create graphs."
       buttonPhrase: "Show more"
 
 
