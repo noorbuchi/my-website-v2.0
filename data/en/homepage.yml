@@ -15,7 +15,7 @@ hero:
   # slider background image loop
     # Done: add illustration to background
   slider_image:
-    - "images/background/plain.png"
+    - "images/background/artBall.png"
 
   # button
   button:
@@ -181,22 +181,22 @@ portfolio:
   enable : true
   title : "PROJECTS"
   portfolio_list:
-    # portfolio item loop
-    - name : "Gator Sorter"
-      image : "images/portfolio/SortingAlgorithms.png"
-      date : "November 2019"
-      category : "Data Structures"
-      URL: "https://github.com/Allegheny-Computer-Science-101-F2019/Gator-Sorter"
-      description: "An implementation of basic
-      sorting algorithms in Java ● Includes step
-      by step demonstration of Bubble Sort,
-      Insertion Sort, and Selection Sort."
+     # portfolio item loop
+    - name : "PyGo Stock Portfolio Tracker"
+      image : "images/portfolio/PyGo.png"
+      date : "December 2020"
+      category : "Programming Languages"
+      URL: "https://github.com/noorbuchi/PyGo-Portfolio-Tracker"
+      description: "Combining Golang's efficiency with Python's visual libraries
+      to create an investment portfolio web application ● Uses Go for data
+      storage and calculations ● Web application with the help of Streamlit,
+      Altair and Matplotlib ● Shipped in a Docker container for easy use"
       buttonPhrase: "Show more"
 
     # portfolio item loop
     - name : "B-Tree Visualiser"
       image : "images/portfolio/BTree.png"
-      date : "March 2020"
+      date : "May 2020"
       category : "Algorithms"
       URL: "https://github.com/noorbuchi/2-3-B-Tree-Java"
       description: "An implementation of 2-3
@@ -204,7 +204,7 @@ portfolio:
       insertion, deletion, and breadth-first
       traversal ● Images of the tree are generated
       through Graphviz ● The tool also features
-      doubling experiments to ensure efficiency."
+      doubling experiments to demonstrate efficiency."
       buttonPhrase: "Show more"
 
     # portfolio item loop
@@ -213,11 +213,23 @@ portfolio:
       date : "March 2020"
       category : "Software Engineering"
       URL: "https://github.com/noorbuchi/cogitate_tool"
-      description: "A Python tool that mines data
+      description: "A thoroughly tested Python tool that mines data
       from GitHub repositories and analyzes
       individual and team performances ● Stores
-      data using JSON and provides a web interface
-      to create graphs."
+      data using Json ● Implements a web interface
+      and creates graphs using Streamlit."
+      buttonPhrase: "Show more"
+
+      # portfolio item loop
+    - name : "Gator Sorter"
+      image : "images/portfolio/SortingAlgorithms.png"
+      date : "November 2019"
+      category : "Data Structures"
+      URL: "https://github.com/noorbuchi/Gator-Sorter"
+      description: "An implementation of basic
+      sorting algorithms in Java ● Includes step
+      by step demonstration of Bubble Sort,
+      Insertion Sort, and Selection Sort."
       buttonPhrase: "Show more"
     
 
