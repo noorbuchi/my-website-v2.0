@@ -9,9 +9,9 @@
   <nav>
     <!-- desktop-menu -->
     <div class="menu-container">
-        <div class="desktop-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ .Site.Params.logo_light | absURL }}" alt="{{ .Site.Title }}" id="desktop-logo"></a>
-        </div>
+      <div class="desktop-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
+            src="{{ .Site.Params.logo_light | absURL }}" alt="{{ .Site.Title }}" id="desktop-logo"></a>
+      </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range .Site.Menus.main }}
         <li class="menu-item hvr-underline-from-left {{ .Weight }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -133,9 +133,12 @@
           <br />
           <div class="personalLinks">
             <a class="btn" href="https://github.com/noorbuchi/" target="_blank"><i class="icon-github icon-3x"></i></a>
-            <a class="btn" href="https://www.linkedin.com/in/noorbuchi/" target="_blank"><i class="icon-linkedin icon-3x"></i></a>
-            <a class="btn" href="https://www.instagram.com/noor_buchi/" target="_blank"><i class="icon-instagram icon-3x"></i></a>
-            <a class="btn" href="https://twitter.com/BuchiNoor/" target="_blank"><i class="icon-twitter icon-3x"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/noorbuchi/" target="_blank"><i
+                class="icon-linkedin icon-3x"></i></a>
+            <a class="btn" href="https://www.instagram.com/noor_buchi/" target="_blank"><i
+                class="icon-instagram icon-3x"></i></a>
+            <a class="btn" href="https://twitter.com/BuchiNoor/" target="_blank"><i
+                class="icon-twitter icon-3x"></i></a>
           </div>
           {{ if .button.enable }}
           {{ with .button }}
@@ -208,7 +211,9 @@
           {{ if .button.enable }}
           {{ with .button }}
 
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang" {{ if .download }}download{{ if .filename }}="{{ .filename }}" {{ end }} {{ end }}> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"
+            {{ if .download }}download{{ if .filename }}="{{ .filename }}" {{ end }} {{ end }}> {{ .label }} &nbsp;
+            &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
@@ -222,57 +227,57 @@
     {{ end }}
     {{ end }}
     <section id="experience">
-    <div class="row experience-skill">
-      {{ if $data.homepage.experience.enable }}
-      {{ with $data.homepage.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          <li>
-            <div class="single-experience">
-              <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }} |</span> {{ end }}
-              {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      {{ end }}
-
-      {{ if $data.homepage.skill.enable }}
-      {{ with $data.homepage.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            {{ if $data.homepage.skill.showpercent }}
-            <span class="skill-bar-percent">{{ .percentage }}</span>
+      <div class="row experience-skill">
+        {{ if $data.homepage.experience.enable }}
+        {{ with $data.homepage.experience }}
+        <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+          <h3>{{ .title }}</h3>
+          <ul class="experience-chart">
+            {{ range .experience_list }}
+            <li>
+              <div class="single-experience">
+                <h4>{{ .name | markdownify }}</h4>
+                {{ with .company }} <span>{{ . | markdownify }} |</span> {{ end }}
+                {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              </div>
+            </li>
             {{ end }}
-            <div class="skillbar" data-percent="{{ .percentage }}">
-              <div class="skillbar-bar"></div>
+          </ul>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        {{ if $data.homepage.skill.enable }}
+        {{ with $data.homepage.skill }}
+        <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+          <h3>{{ .title }}</h3>
+          <div class="skill-progress-bar">
+            {{ range .skill_list }}
+            <div class="clearfix">
+              <span class="skillbar-title">{{ .name }}</span>
+              {{ if $data.homepage.skill.showpercent }}
+              <span class="skill-bar-percent">{{ .percentage }}</span>
+              {{ end }}
+              <div class="skillbar" data-percent="{{ .percentage }}">
+                <div class="skillbar-bar"></div>
+              </div>
             </div>
+            {{ end }}
+            <!-- ADDED images div -->
+            <img class="skillsLogo" src="images/icons/java.png" alt="javalogo">
+            <img class="skillsLogo" style="width: 20%; length: 20%;" src="images/icons/python.png" alt="pythonlogo">
+            <img class="skillsLogo" src="images/icons/amazon_ec2.png" alt="EC2 logo">
+            <img class="skillsLogo" src="images/icons/docker.png" alt="docker logo">
+            <img class="skillsLogo" src="images/icons/git.png" alt="git logo">
+            <img class="skillsLogo" style="width: 20%; length: 20%;" src="images/icons/junit.png" alt="junit logo">
+
           </div>
-          {{ end }}
-          <!-- ADDED images div -->
-          <img class="skillsLogo" src="images/icons/java.png" alt="javalogo">
-          <img class="skillsLogo" style="width: 20%; length: 20%;" src="images/icons/python.png" alt="pythonlogo">
-          <img class="skillsLogo" src="images/icons/amazon_ec2.png" alt="EC2 logo">
-          <img class="skillsLogo" src="images/icons/docker.png" alt="docker logo">
-          <img class="skillsLogo" src="images/icons/git.png" alt="git logo">
-          <img class="skillsLogo" style="width: 20%; length: 20%;" src="images/icons/junit.png" alt="junit logo">
 
         </div>
-
+        {{ end }}
+        {{ end }}
       </div>
-      {{ end }}
-      {{ end }}
-    </div>
     </section>
   </div>
 </section>
@@ -301,8 +306,8 @@
                 <img class="certification-img img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
                 <h4 style="margin-top:10px">{{ .name | markdownify }}</h4>
               </div> -->
-              <!--<div class="certification-label">{{ .name | markdownify }}</div>-->
-            <!-- </div>
+<!--<div class="certification-label">{{ .name | markdownify }}</div>-->
+<!-- </div>
             {{ end }}
           </div>
         </div>
@@ -318,10 +323,10 @@
     =============================== -->
 
 
-    <!-- =============================
+<!-- =============================
           Start Services
         =============================== -->
-    <!-- <section class="services" id="service">
+<!-- <section class="services" id="service">
       {{ if $data.homepage.service.enable }}
       {{ with $data.homepage.service }}
       <div class="container">
@@ -370,7 +375,7 @@
       {{ end }}
       {{ end }}
     </section> -->
-    <!-- =============================
+<!-- =============================
            End Services
         =============================== -->
 
@@ -406,8 +411,8 @@
                   <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
                 <div class="item-caption">
                   <h3>{{ .name | safeHTML }}</h3> -->
-                  <!-- <p>{{ .category | title }}</p> -->
-                  <!-- <div class="item-created">{{ .date }}</div>
+              <!-- <p>{{ .category | title }}</p> -->
+              <!-- <div class="item-created">{{ .date }}</div>
                 </div>
               </a> -->
 
@@ -419,7 +424,8 @@
                     <h5 class="card-title">{{ .name | safeHTML}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{ .date | safeHTML}}</h6>
                     <p class="card-text"> {{ .description | safeHTML}}</p>
-                    <a href="{{ .URL | absURL }}" target="_blank" class="btn btn-dark ">{{ .buttonPhrase | safeHTML}}</a>
+                    <a href="{{ .URL | absURL }}" target="_blank"
+                      class="btn btn-dark ">{{ .buttonPhrase | safeHTML}}</a>
                   </div>
                 </div>
               </div>
@@ -441,6 +447,37 @@
        End Portfolio
     =============================== -->
 
+<!-- TODO: needs more style -->
+<!-- =============================
+       Chess Puzzle
+    =============================== -->
+
+<!-- Button trigger modal -->
+<!-- <button type="btn" class="btn btn-dark " data-toggle="modal" data-target="#exampleModal">
+  Daily Chess Puzzle
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Daily Chess Puzzle</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.chess.com/daily_puzzle" style="width:
+            440px; height: 520px; border: none; padding: 0px"></iframe>
+    </div>
+  </div>
+</div> -->
+
+<!-- =============================
+       End Chess Puzzle
+    =============================== -->
 
 <!-- =============================
        Start Contact
@@ -450,8 +487,8 @@
   <div class="container">
     <div class="row">
       <!-- <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2"> -->
-        <!-- <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1> -->
-        <!-- <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
+      <!-- <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1> -->
+      <!-- <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
               <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
@@ -476,25 +513,25 @@
       <div class="footer col-lg-10 offset-lg-1">
         <!-- <hr> -->
         <h5 style="color: white; text-align: center;"> Contact me: </h5>
+        <div class="personalLinks"></div>
         <div class="personalLinks">
-          <p class="footer-icons list-inline" style="color: white;">
-            <a class="btn" syle="color: white;" href="https://github.com/noorbuchi/" target="_blank"><i class="icon-github icon-3x"></i></a>
-            <a class="btn" href="https://www.linkedin.com/in/noorbuchi/" target="_blank"><i class="icon-linkedin icon-3x"></i></a>
-            <a class="btn" href="https://www.instagram.com/noor_buchi/" target="_blank"><i class="icon-instagram icon-3x"></i></a>
-            <a class="btn" href="https://twitter.com/BuchiNoor/" target="_blank"><i class="icon-twitter icon-3x"></i></a>
-            <!-- {{ range .Site.Params.social }}
-            <li><a href="{{ .link | safeURL }}" target="_blank"><i class="fab {{ .icon }} fa-inverse fa-2x"></i></a></li>
-            {{ end }} -->
-          </p>
-        </div>
-        <!-- <div class="to-top">
-          <a href="#home"><i class="fa fa-chevron-up"></i></a>
-        </div> -->
-        <div class="credit">
-          <i class="fas fa-copyright"></i> {{ .Site.Params.copyright | markdownify }}
+          <a class="btn" href="https://github.com/noorbuchi/" target="_blank"><i class="icon-github icon-3x"></i></a>
+          <a class="btn" href="https://www.linkedin.com/in/noorbuchi/" target="_blank"><i
+              class="icon-linkedin icon-3x"></i></a>
+          <a class="btn" href="https://www.instagram.com/noor_buchi/" target="_blank"><i
+              class="icon-instagram icon-3x"></i></a>
+          <a class="btn" href="https://twitter.com/BuchiNoor/" target="_blank"><i class="icon-twitter icon-3x"></i></a>
         </div>
       </div>
+      <!-- <div class="to-top">
+          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div> -->
+      <div class="credit">
+        <i class="fas fa-copyright"></i> {{ .Site.Params.copyright | markdownify }}
+      </div>
     </div>
+
+  </div>
   </div>
 </section>
 {{ end }}
