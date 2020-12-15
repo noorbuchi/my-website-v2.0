@@ -97,7 +97,7 @@ googleAnalytics =  "G-78SD7SK43C" # your id
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/preloaders/circles.svg" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
