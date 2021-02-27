@@ -24,7 +24,7 @@ hero:
     link : "#about"
 
 
-####################### Full screen navigation #####################
+###################### Full screen navigation #####################
 # fullscreen_nav:
 #   enable : false
 #   bg_image : "images/backgrounds/full-nav-bg.jpg"
@@ -72,24 +72,24 @@ experience:
     # experience item loop
     - name : "Store Associate"
       company : "Aldi, Lower Burrell PA"
-      duration : "June 2018 - Present"
-      content : "● Assist customers in finding and comparing products
-      ● Operate cash register and handle money responsibly
-      ● Maintain a clean working environment in the store
-      ● Stock Shelving units with needed items in an organized manner
-      ● Resolve customer concerns professionally"
+      duration : "June 2018 - February 2021"
+      content : "● Assisted customers in finding and comparing products
+      ● Operated cash register and handled money responsibly
+      ● Maintained a clean working environment in the store
+      ● Stocked Shelving units with needed items in an organized manner
+      ● Resolved customer concerns professionally"
 
     # experience item loop
-    - name : "Subject Tutor"
+    - name : "Mathematics Subject Tutor"
       company : "Allegheny College, Meadville PA"
       duration : "September 2019 - May 2020"
-      content : "● Assist 3-4 students a week in
-      calculus and Arabic language ● Develop
-      student’s studying skills and improve
+      content : "● Assisted 3-4 students a week in
+      calculus and Arabic ● Developed
+      student’s studying skills and improved
       subject competencies by providing advising
-      strategies ● Prepare and construct
+      strategies ● Prepared and construct
       individualized lessons plans according to
-      student skill level ● Hold weekly office
+      student skill level ● Held weekly office
       hours to support students outside of
       classroom learning"
 
@@ -98,22 +98,22 @@ experience:
       duration : "September 2019 - March 2020"
       content : "● Input information into office
       databases and spreadsheets such as Excel and
-      Colleague ● Answer phone calls and assist
+      Colleague ● Answered phone calls and assisted
       callers according to their concern regarding
-      financial aid ● Make appointments for
+      financial aid ● Made appointments for
       supervisors with respect to their schedules
-      ● Organize and file sensitive office
+      ● Organized and file sensitive office
       documents and records in alphabetical order
       to ease future access"
 
     - name : "Tennis Coach Assistant"
       company : "Burrell School District, Lower Burrell PA"
       duration : "February 2017 - September 2020"
-      content : "● Organize summer tennis camp for
+      content : "● Organized summer tennis camp for
       children in elementary and middle school ●
-      Oversee drills for the high school varsity
-      team ● Provide performance feedback to the
-      head coach ● Assist in organizing
+      Oversaw drills for the high school varsity
+      team ● Provided performance feedback to the
+      head coach ● Assisted in organizing
       fundraisers"
 
 
