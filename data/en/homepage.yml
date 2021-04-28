@@ -35,7 +35,7 @@ hero:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/profile/portrait.png"
+  image : "images/profile/latest_portrait.png"
   title : "ABOUT ME"
   content :  "Hello! My name is Noor Buchi, I'm a
   student at Allegheny College majoring in
