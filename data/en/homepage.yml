@@ -50,7 +50,7 @@ about:
   button:
     enable : true
     label : "VIEW MY RESUME"
-    link : "https://docs.google.com/document/d/16b6j5_OFEgF-MkesBF8xK-Fwm4GgJIUvNURvqJFexAA/edit?usp=sharing" # you can put your cv in static folder and give the path here.
+    link : "resume/my_resume.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
