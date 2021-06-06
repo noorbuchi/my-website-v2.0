@@ -55,21 +55,44 @@ about:
     link : "resume/my_resume.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
+# TODO: add show more to cut on space
 experience:
   enable : true
   title : "WORK EXPERIENCE"
   # TODO try to change content to a bulleted list
   experience_list:
     # experience item loop
-    - name : "Technical Leader"
+    - name : "Software Engineer Intern"
+      company : "NetApp, Pittsburgh PA"
+      duration : "May 2021 - Present"
+      content : ""
+
+    - name : "Capstone Project Student Intern"
+      company : "NetApp, Pittsburgh PA"
+      duration : "January 2021 - May 2021"
+      content : "● Collaborated in an Agile environment and attended weekly
+      sprint meetings
+      ● Utilized React’s Javascript framework to implement deep search and
+      filtering functionalities
+      ● Presented findings and results to a team of 35-40 software engineers"
+
+    - name : "Computer Science Teacher Assistant"
       company : "Allegheny College, Meadville PA"
       duration : "August 2020 - Present"
-      content : "● Attend meetings to receive
-      performance feedback and provide updates ●
-      Hold weekly office hours to assist students
-      in introductory computer science courses ●
-      Assist 20-25 student in completing class
-      activities and assignments"
+      content : "● Assist 10-15 student weekly in successfully completing class activities and
+      assignments
+      ● Hold weekly office hours to assist and support student’s academic progress in
+      introductory and intermediate computer science courses
+      ● Attend meetings to receive performance feedback and provide updates"
+
+    - name : "Arabic Language Teacher Assistant"
+      company : "Allegheny College, Meadville PA"
+      duration : "February 2021 - Present"
+      content : "● Assist 20 students in beginner and intermediate Arabic throughout 4 weekly labs,
+      tailoring teaching approaches to that of student’s learning style
+      ● Create a fun, inclusive, productive environment for students seeking to learn the
+      Arabic language
+      ● Work closely with Arabic language professors to create effective lesson plans"
 
     # experience item loop
     - name : "Store Associate"
@@ -82,22 +105,21 @@ experience:
       ● Resolved customer concerns professionally"
 
     # experience item loop
-    - name : "Mathematics Subject Tutor"
+    - name : "Subject Tutor"
       company : "Allegheny College, Meadville PA"
-      duration : "September 2019 - May 2020"
-      content : "● Assisted 3-4 students a week in
-      calculus and Arabic ● Developed
-      student’s studying skills and improved
-      subject competencies by providing advising
-      strategies ● Prepared and construct
+      duration : "September 2019 - March 2020"
+      content : "● Assisted 3-4 students a week in beginner calculus level math
+      and Arabic language
+      ● Prepared and constructed
       individualized lessons plans according to
-      student skill level ● Held weekly office
+      student skill level
+      ● Held weekly office
       hours to support students outside of
       classroom learning"
 
     - name : "Financial Aid Intern"
       company : "Allegheny College, Meadville PA"
-      duration : "September 2019 - March 2020"
+      duration : "August 2019 - March 2020"
       content : "● Input information into office
       databases and spreadsheets such as Excel and
       Colleague ● Answered phone calls and assisted
@@ -126,7 +148,7 @@ skill:
   skill_list:
     # skill item loop
     - name : "Time Management"
-      percentage : "70%"
+      percentage : "80%"
 
     # skill item loop
     - name : "Communication"
