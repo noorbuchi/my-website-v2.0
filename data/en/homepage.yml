@@ -10,6 +10,7 @@ hero:
     - "Love Video Games"
     - "Play Chess"
     - "Procrastinate Sometimes"
+    - "Love photography"
     # TODO: maybe change this
 
   # slider background image loop
@@ -26,7 +27,7 @@ hero:
 
 ###################### Full screen navigation #####################
 # fullscreen_nav:
-#   enable : false
+#   enable : true
 #   bg_image : "images/backgrounds/full-nav-bg.jpg"
 #   first_name : "MacGyver"
 #   last_name : "SOMRAT"
@@ -38,13 +39,14 @@ about:
   image : "images/profile/latest_portrait.png"
   title : "ABOUT ME"
   content :  "Hello! My name is Noor Buchi, I'm a
-  student at Allegheny College majoring in
+  senior at Allegheny College majoring in
   Computer Science with a minor in Political
-  Science. I enjoy software engineering as well as
-  cloud computing. I'm currently looking to gain
-  professional experience through an internship
-  that helps me develop new skills and explore
-  different fields in computer science."
+  Science. I'm very interested in collaborating with others
+  and working on meaningful and fun project. Throughout recent
+  internships and projects, I gained some
+  professional experience as a software engineer.
+  I'm actively pursuing new opportunities in industry to
+  expand my skillset and continue to develop my profession experience."
 
   # button
   button:
