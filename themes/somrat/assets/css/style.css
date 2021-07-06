@@ -2277,3 +2277,15 @@ textarea.form-control::-webkit-input-placeholder,
 /*--------------------------------
   End Contact
 ----------------------------------
+
+/*--------------------------------
+  Start photography gallery
+----------------------------------*/
+
+body.modal-open {
+  overflow: visible;
+}
+
+/*--------------------------------
+  End photography gallery
+----------------------------------*/
