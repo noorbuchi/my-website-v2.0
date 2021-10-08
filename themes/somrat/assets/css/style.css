@@ -2289,3 +2289,8 @@ body.modal-open {
 /*--------------------------------
   End photography gallery
 ----------------------------------*/
+
+.music-header {
+  font-size: 1.4em;
+  color: #6f6f6f;
+}
