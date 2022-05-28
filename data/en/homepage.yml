@@ -38,15 +38,14 @@ about:
   enable : true
   image : "images/profile/latest_portrait.png"
   title : "ABOUT ME"
-  content :  "Hello! My name is Noor Buchi, I'm a
-  senior at Allegheny College majoring in
-  Computer Science with a minor in Political
-  Science. I'm very interested in collaborating with others
-  and working on meaningful and fun project. Throughout recent
-  internships and projects, I gained some
-  professional experience as a software engineer.
-  I'm actively pursuing new opportunities in industry to
-  expand my skillset and continue to develop my profession experience."
+  content :  "Hello, thanks for checking out my website!
+  My name is Noor Buchi, I'm a recent Computer Science graduate from
+  Allegheny College and a software engineer at NetApp Inc.
+  Throughout my time as an undergraduate, I had many opportunities to work with
+  fellow students and other professionals on various projects that helped me
+  develop my skills. As I start my professional career, I'm looking to build new
+  connections, meet people from industry, and work on projects that solve
+  meaningful problems and help me learn. Feel free to reach out!"
 
   # button
   button:
@@ -65,14 +64,17 @@ experience:
     - name : "Software Engineer Intern"
       company : "NetApp, Pittsburgh PA"
       duration : "May 2021 - Present"
-      content : ""
+      content : "● Implemented REST API content management approaches in Python.
+      ● • Engaged in code reviews and discussions with industry professionals to ensure
+      quality of contributions.
+      ● Participated in Scrum meetings to manage and track tasks."
 
     - name : "Capstone Project Student Intern"
       company : "NetApp, Pittsburgh PA"
       duration : "January 2021 - May 2021"
       content : "● Collaborated in an Agile environment and attended weekly
       sprint meetings
-      ● Utilized React’s Javascript framework to implement deep search and
+      ● Utilized React's Javascript framework to implement deep search and
       filtering functionalities
       ● Presented findings and results to a team of 35-40 software engineers"
 
@@ -81,7 +83,7 @@ experience:
       duration : "August 2020 - Present"
       content : "● Assist 10-15 student weekly in successfully completing class activities and
       assignments
-      ● Hold weekly office hours to assist and support student’s academic progress in
+      ● Hold weekly office hours to assist and support students' academic progress in
       introductory and intermediate computer science courses
       ● Attend meetings to receive performance feedback and provide updates"
 
@@ -89,12 +91,13 @@ experience:
       company : "Allegheny College, Meadville PA"
       duration : "February 2021 - Present"
       content : "● Assist 20 students in beginner and intermediate Arabic throughout 4 weekly labs,
-      tailoring teaching approaches to that of student’s learning style
+      tailoring teaching approaches to that of student's learning style
       ● Create a fun, inclusive, and productive environment for students seeking to learn the
       Arabic language
       ● Work closely with Arabic language professors to create effective lesson plans"
 
-    # experience item loop
+
+  more_experience_list:
     - name : "Store Associate"
       company : "Aldi, Lower Burrell PA"
       duration : "June 2018 - February 2021"
@@ -139,6 +142,7 @@ experience:
       team ● Provided performance feedback to the
       head coach ● Assisted in organizing
       fundraisers"
+
 
 
 ############################### Skill #################################

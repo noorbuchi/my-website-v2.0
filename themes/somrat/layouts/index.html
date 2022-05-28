@@ -243,7 +243,21 @@
               </div>
             </li>
             {{ end }}
+            {{ range .more_experience_list }}
+            <li class="more-experience" hidden>
+              <div class="single-experience">
+                <h4>{{ .name | markdownify }}</h4>
+                {{ with .company }} <span>{{ . | markdownify }} |</span> {{ end }}
+                {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              </div>
+            </li>
+            {{ end }}
           </ul>
+          <div id="more-button-container">
+            <button id="show-more-experience-btn" class="download-cv">Show More</button>
+            <button id="show-less-experience-btn" class="download-cv" hidden>Show Less</button>
+          </div>
         </div>
         {{ end }}
         {{ end }}
@@ -282,6 +296,7 @@
         {{ end }}
         {{ end }}
       </div>
+
     </section>
   </div>
 </section>
