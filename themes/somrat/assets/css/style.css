@@ -116,8 +116,9 @@ body {
 }
 
 .skillsLogo {
+  padding: 15px;
   width: 150px;
-  length: 150px;
+  height: 150px;
   margin-right: 15px;
   margin-top: 10px;
 }

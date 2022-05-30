@@ -1,10 +1,17 @@
 document
   .getElementById("show-more-experience-btn")
   .addEventListener("click", () => {
+    // Show the work experience
     var entriesCollection = document.getElementsByClassName("more-experience");
     Array.from(entriesCollection).forEach((element) => {
       element.removeAttribute("hidden");
     });
+    // Show the tools images
+    var logosCollection = document.getElementsByClassName("moreSkillsLogos");
+    Array.from(logosCollection).forEach((element) => {
+      element.removeAttribute("hidden");
+    });
+    // Switch the buttons around
     document
       .getElementById("show-more-experience-btn")
       .setAttribute("hidden", true);
@@ -16,10 +23,17 @@ document
 document
   .getElementById("show-less-experience-btn")
   .addEventListener("click", () => {
+    // Hide work experience
     var entriesCollection = document.getElementsByClassName("more-experience");
     Array.from(entriesCollection).forEach((element) => {
       element.setAttribute("hidden", true);
     });
+    var logosCollection = document.getElementsByClassName("moreSkillsLogos");
+    Array.from(logosCollection).forEach((element) => {
+      element.setAttribute("hidden", true);
+    });
+
+    // Switch the buttons around
     document
       .getElementById("show-less-experience-btn")
       .setAttribute("hidden", true);

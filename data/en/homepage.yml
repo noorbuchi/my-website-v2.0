@@ -163,6 +163,40 @@ skill:
       percentage : "80%"
 
 
+tools:
+  imageList:
+    - src: images/icons/python2.png
+      alt: python logo
+    - src: images/icons/c.png
+      alt: C logo
+    - src: images/icons/golang.png
+      alt: Golang logo
+    - src: images/icons/html.png
+      alt: html logo
+    - src: images/icons/css.png
+      alt: css logo
+    - src: images/icons/javascript.png
+      alt: javascript logo
+    - src: images/icons/react.png
+      alt: react logo
+    - src: images/icons/amazon_ec2.png
+      alt: Amazon AWS logo
+    - src: images/icons/docker2.png
+      alt: Docker logo
+  moreImages:
+    - src: images/icons/git2.png
+      alt: Git logo
+    - src: images/icons/pytest.png
+      alt: Pytest logo
+    - src: images/icons/java.png
+      alt: Java logo
+    - src: images/icons/r.png
+      alt: R logo
+    - src: images/icons/sql.png
+      alt: SQL logo
+
+
+
 ################################### Service ##############################3
 service:
   enable : false
