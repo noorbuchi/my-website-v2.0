@@ -1112,7 +1112,13 @@ input:checked+label span:last-child {
   text-align: center;
 }
 
-#more-button-container {
+#show-more-projects-btn,
+#show-less-projects-btn {
+  background-color: white;
+  text-align: center;
+}
+
+.more-button-container {
   text-align: center;
 }
 

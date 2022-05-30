@@ -63,7 +63,7 @@ experience:
     # experience item loop
     - name : "Software Engineer Intern"
       company : "NetApp, Pittsburgh PA"
-      duration : "May 2021 - Present"
+      duration : "May 2021 - August 2021"
       content : "● Implemented REST API content management approaches in Python.
       ● Engaged in code reviews and discussions with industry professionals to ensure
       quality of contributions.
@@ -80,7 +80,7 @@ experience:
 
     - name : "Computer Science Teacher Assistant"
       company : "Allegheny College, Meadville PA"
-      duration : "August 2020 - Present"
+      duration : "August 2020 - May 2022"
       content : "● Assist 10-15 student weekly in successfully completing class activities and
       assignments
       ● Hold weekly office hours to assist and support students' academic progress in
@@ -89,7 +89,7 @@ experience:
 
     - name : "Arabic Language Teacher Assistant"
       company : "Allegheny College, Meadville PA"
-      duration : "February 2021 - Present"
+      duration : "February 2021 - May 2021"
       content : "● Assist 20 students in beginner and intermediate Arabic throughout 4 weekly labs,
       tailoring teaching approaches to that of student's learning style
       ● Create a fun, inclusive, and productive environment for students seeking to learn the
@@ -282,7 +282,7 @@ portfolio:
       and creates graphs using Streamlit."
       buttonPhrase: "Show more"
 
-      # portfolio item loop
+  extra_portfolio_list:
     - name : "Gator Sorter"
       image : "images/portfolio/SortingAlgorithms.png"
       date : "November 2019"
@@ -293,7 +293,7 @@ portfolio:
       by step demonstration of Bubble Sort,
       Insertion Sort, and Selection Sort."
       buttonPhrase: "Show more"
-    
+  
 
 ################################# Testimonial #########################33
 testimonial:

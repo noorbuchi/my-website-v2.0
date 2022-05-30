@@ -1,3 +1,4 @@
+// More/less experience
 document
   .getElementById("show-more-experience-btn")
   .addEventListener("click", () => {
@@ -40,6 +41,34 @@ document
     document
       .getElementById("show-more-experience-btn")
       .removeAttribute("hidden");
+  });
+// More/less projects
+document
+  .getElementById("show-more-projects-btn")
+  .addEventListener("click", () => {
+    var entriesCollection = document.getElementsByClassName("more-projects");
+    Array.from(entriesCollection).forEach((element) => {
+      element.removeAttribute("hidden");
+    });
+    // Switch the buttons around
+    document
+      .getElementById("show-more-projects-btn")
+      .setAttribute("hidden", true);
+    document.getElementById("show-less-projects-btn").removeAttribute("hidden");
+  });
+
+document
+  .getElementById("show-less-projects-btn")
+  .addEventListener("click", () => {
+    var entriesCollection = document.getElementsByClassName("more-projects");
+    Array.from(entriesCollection).forEach((element) => {
+      element.setAttribute("hidden", true);
+    });
+    // Switch the buttons around
+    document
+      .getElementById("show-less-projects-btn")
+      .setAttribute("hidden", true);
+    document.getElementById("show-more-projects-btn").removeAttribute("hidden");
   })(
   (function ($) {
     "use strict";

@@ -289,7 +289,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div id="more-button-container">
+      <div class="more-button-container">
         <button id="show-more-experience-btn" class="download-cv">Show More</button>
         <button id="show-less-experience-btn" class="download-cv" hidden>Show Less</button>
       </div>
@@ -422,15 +422,6 @@
           {{ range .portfolio_list }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-category="{{ .category | urlize }}">
             <div class="item-holder">
-              <!-- <a href="{{ .URL | absURL }}" title="{{ .name | safeHTML }}" target="_blank">
-                  <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
-                <div class="item-caption">
-                  <h3>{{ .name | safeHTML }}</h3> -->
-              <!-- <p>{{ .category | title }}</p> -->
-              <!-- <div class="item-created">{{ .date }}</div>
-                </div>
-              </a> -->
-
               <!-- Custrom added cards using bootstrap -->
               <div class="card-group">
                 <div class="card border-light mb-3 " style="width: 20rem;">
@@ -444,13 +435,36 @@
                   </div>
                 </div>
               </div>
-              <!-- End of ustrom added cards using bootstrap -->
-
+              <!-- End of custom added cards using bootstrap -->
+            </div>
+          </div>
+          {{ end }}
+          {{ range .extra_portfolio_list }}
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12 more-projects" data-category="{{ .category | urlize }}" hidden>
+            <div class="item-holder">
+              <!-- Custrom added cards using bootstrap -->
+              <div class="card-group">
+                <div class="card border-light mb-3 " style="width: 20rem;">
+                  <img src="{{ .image | absURL }}" class="card-img-top" alt="Project logo">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ .name | safeHTML}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ .date | safeHTML}}</h6>
+                    <p class="card-text"> {{ .description | safeHTML}}</p>
+                    <a href="{{ .URL | absURL }}" target="_blank"
+                      class="btn btn-dark ">{{ .buttonPhrase | safeHTML}}</a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of custom added cards using bootstrap -->
             </div>
           </div>
           {{ end }}
         </div>
       </div>
+    </div>
+    <div class="more-button-container">
+      <button id="show-more-projects-btn" class="download-cv">Show More Projects</button>
+      <button id="show-less-projects-btn" class="download-cv" hidden>Show Less Projects</button>
     </div>
   </div>
 </section>
